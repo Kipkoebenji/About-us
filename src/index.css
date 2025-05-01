@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+.aboutUs{
+  background-color: rgb(248, 247, 247);
+  margin: 0;
+}
+.About{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(173, 18, 18);
+}
+.Heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(173, 18, 18);
+  margin-top: 0;
+}
+p{
+  font-family: sans-serif;
+  color: rgb(79, 78, 78);
+}
+.Img{
+  height: 200px;
+  border-radius: 50%;
+}
+.first{
+  display: flex;
+  column-gap: 90px;
+  margin-left: 50px;
+}
+.second{
+  display: flex;
+  column-gap: 90px;
+  margin-left: 150px;
+}
+button{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(29, 157, 29);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ border-radius: 25px;
+}
+button:hover{
+  background-color: rgb(12, 240, 12);
+  transition: ease 0.5s;
+}
+.smallTxt{
+  color: rgb(173, 18, 18);
+  font-family: Arial, Helvetica, sans-serif;
+}
